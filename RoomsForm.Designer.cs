@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_303 = new System.Windows.Forms.Button();
+            this.button303 = new System.Windows.Forms.Button();
             this.button304 = new System.Windows.Forms.Button();
-            this.butto302 = new System.Windows.Forms.Button();
+            this.button302 = new System.Windows.Forms.Button();
             this.button301 = new System.Windows.Forms.Button();
             this.button204 = new System.Windows.Forms.Button();
             this.button203 = new System.Windows.Forms.Button();
@@ -42,16 +42,16 @@
             this.button101 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button_303
+            // button303
             // 
-            this.button_303.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button_303.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_303.Location = new System.Drawing.Point(332, 309);
-            this.button_303.Name = "button_303";
-            this.button_303.Size = new System.Drawing.Size(90, 89);
-            this.button_303.TabIndex = 45;
-            this.button_303.Text = "303";
-            this.button_303.UseVisualStyleBackColor = false;
+            this.button303.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button303.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button303.Location = new System.Drawing.Point(332, 309);
+            this.button303.Name = "button303";
+            this.button303.Size = new System.Drawing.Size(90, 89);
+            this.button303.TabIndex = 45;
+            this.button303.Text = "303";
+            this.button303.UseVisualStyleBackColor = false;
             // 
             // button304
             // 
@@ -64,16 +64,16 @@
             this.button304.Text = "304";
             this.button304.UseVisualStyleBackColor = false;
             // 
-            // butto302
+            // button302
             // 
-            this.butto302.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.butto302.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butto302.Location = new System.Drawing.Point(194, 309);
-            this.butto302.Name = "butto302";
-            this.butto302.Size = new System.Drawing.Size(90, 89);
-            this.butto302.TabIndex = 43;
-            this.butto302.Text = "302";
-            this.butto302.UseVisualStyleBackColor = false;
+            this.button302.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button302.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button302.Location = new System.Drawing.Point(194, 309);
+            this.button302.Name = "button302";
+            this.button302.Size = new System.Drawing.Size(90, 89);
+            this.button302.TabIndex = 43;
+            this.button302.Text = "302";
+            this.button302.UseVisualStyleBackColor = false;
             // 
             // button301
             // 
@@ -173,15 +173,16 @@
             this.button101.TabIndex = 34;
             this.button101.Text = "101";
             this.button101.UseVisualStyleBackColor = false;
+            this.button101.Click += new System.EventHandler(this.button101_Click);
             // 
             // RoomsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(628, 449);
-            this.Controls.Add(this.button_303);
+            this.Controls.Add(this.button303);
             this.Controls.Add(this.button304);
-            this.Controls.Add(this.butto302);
+            this.Controls.Add(this.button302);
             this.Controls.Add(this.button301);
             this.Controls.Add(this.button204);
             this.Controls.Add(this.button203);
@@ -193,15 +194,16 @@
             this.Controls.Add(this.button101);
             this.Name = "RoomsForm";
             this.Text = "RoomsForm";
+            this.Load += new System.EventHandler(this.RoomsForm_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button_303;
+        private System.Windows.Forms.Button button303;
         private System.Windows.Forms.Button button304;
-        private System.Windows.Forms.Button butto302;
+        private System.Windows.Forms.Button button302;
         private System.Windows.Forms.Button button301;
         private System.Windows.Forms.Button button204;
         private System.Windows.Forms.Button button203;

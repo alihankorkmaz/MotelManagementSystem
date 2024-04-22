@@ -1,6 +1,6 @@
 ﻿namespace Motel_Management_system
 {
-    partial class Form1
+    partial class adminLoginPanel
     {
         /// <summary>
         /// Required designer variable.

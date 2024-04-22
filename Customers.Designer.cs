@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.buttonShwData = new System.Windows.Forms.Button();
+            this.buttonUpdate = new System.Windows.Forms.Button();
+            this.buttonDelete = new System.Windows.Forms.Button();
+            this.buttonSearch = new System.Windows.Forms.Button();
             this.comboBoxGender = new System.Windows.Forms.ComboBox();
             this.textGender = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -69,50 +69,53 @@
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
-            // button1
+            // buttonShwData
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(740, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 36);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Show Data";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonShwData.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonShwData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonShwData.Location = new System.Drawing.Point(740, 3);
+            this.buttonShwData.Name = "buttonShwData";
+            this.buttonShwData.Size = new System.Drawing.Size(117, 36);
+            this.buttonShwData.TabIndex = 1;
+            this.buttonShwData.Text = "Show Data";
+            this.buttonShwData.UseVisualStyleBackColor = false;
+            this.buttonShwData.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // buttonUpdate
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(740, 76);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 36);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonUpdate.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonUpdate.Location = new System.Drawing.Point(740, 76);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(117, 36);
+            this.buttonUpdate.TabIndex = 2;
+            this.buttonUpdate.Text = "Update";
+            this.buttonUpdate.UseVisualStyleBackColor = false;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
-            // button3
+            // buttonDelete
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(740, 152);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(117, 36);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = false;
+            this.buttonDelete.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonDelete.Location = new System.Drawing.Point(740, 152);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(117, 36);
+            this.buttonDelete.TabIndex = 3;
+            this.buttonDelete.Text = "Delete";
+            this.buttonDelete.UseVisualStyleBackColor = false;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
-            // button4
+            // buttonSearch
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.Location = new System.Drawing.Point(740, 225);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(117, 36);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Search";
-            this.button4.UseVisualStyleBackColor = false;
+            this.buttonSearch.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonSearch.Location = new System.Drawing.Point(740, 225);
+            this.buttonSearch.Name = "buttonSearch";
+            this.buttonSearch.Size = new System.Drawing.Size(117, 36);
+            this.buttonSearch.TabIndex = 4;
+            this.buttonSearch.Text = "Search";
+            this.buttonSearch.UseVisualStyleBackColor = false;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // comboBoxGender
             // 
@@ -150,7 +153,6 @@
             // textCharge
             // 
             this.textCharge.BackColor = System.Drawing.SystemColors.Info;
-            this.textCharge.Enabled = false;
             this.textCharge.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textCharge.Location = new System.Drawing.Point(122, 233);
             this.textCharge.Name = "textCharge";
@@ -205,7 +207,6 @@
             // textRoomNo
             // 
             this.textRoomNo.BackColor = System.Drawing.SystemColors.Info;
-            this.textRoomNo.Enabled = false;
             this.textRoomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textRoomNo.Location = new System.Drawing.Point(122, 199);
             this.textRoomNo.Name = "textRoomNo";
@@ -331,7 +332,6 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(687, 277);
             this.textBox1.Name = "textBox1";
@@ -359,30 +359,38 @@
             this.listView1.TabIndex = 65;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "No";
+            this.columnHeader1.Width = 50;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Name";
+            this.columnHeader2.Width = 130;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Surname";
+            this.columnHeader3.Width = 130;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Gender";
+            this.columnHeader4.Width = 69;
             // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "Phone No";
+            this.columnHeader5.Width = 89;
             // 
             // columnHeader6
             // 
             this.columnHeader6.Text = "Mail";
+            this.columnHeader6.Width = 67;
             // 
             // columnHeader7
             // 
@@ -403,6 +411,7 @@
             // columnHeader11
             // 
             this.columnHeader11.Text = "Leave Date";
+            this.columnHeader11.Width = 120;
             // 
             // Customers
             // 
@@ -434,10 +443,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonSearch);
+            this.Controls.Add(this.buttonDelete);
+            this.Controls.Add(this.buttonUpdate);
+            this.Controls.Add(this.buttonShwData);
             this.Name = "Customers";
             this.Text = "Customer İnformation";
             this.Load += new System.EventHandler(this.Customers_Load);
@@ -447,10 +456,10 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonShwData;
+        private System.Windows.Forms.Button buttonUpdate;
+        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.ComboBox comboBoxGender;
         private System.Windows.Forms.Label textGender;
         private System.Windows.Forms.Label label10;

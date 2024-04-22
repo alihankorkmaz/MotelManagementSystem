@@ -3,7 +3,6 @@ C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\bi
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\bin\Debug\Motel_Management_system.pdb
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.csproj.AssemblyReference.cache
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.csproj.SuggestedBindingRedirects.cache
-C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.Form1.resources
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.Properties.Resources.resources
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.csproj.GenerateResource.cache
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.csproj.CoreCompileInputs.cache
@@ -46,3 +45,4 @@ C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\bi
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\bin\Debug\System.ValueTuple.xml
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.csproj.CopyComplete
 C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.Customers.resources
+C:\Users\ALİHAN\Source\Repos\Motel_Management_system\Motel_Management_system\obj\Debug\Motel_Management_system.adminLoginPanel.resources

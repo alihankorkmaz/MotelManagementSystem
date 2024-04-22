@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Motel_Management_system
 {
-    public partial class Form1 : Form
+    public partial class adminLoginPanel : Form
     {
-        public Form1()
+        public adminLoginPanel()
         {
             InitializeComponent();
         }

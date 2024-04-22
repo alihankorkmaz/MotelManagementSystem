@@ -19,7 +19,7 @@ namespace Motel_Management_system
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 adminpanel = new Form1();
+            adminLoginPanel adminpanel = new adminLoginPanel();
             adminpanel.Show();
         }
 
@@ -33,6 +33,17 @@ namespace Motel_Management_system
         {
             Customers customers = new Customers();
             customers.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Korkmaz Motel Managament /2024 - Poznan by Alihan");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            RoomsForm roomsform = new RoomsForm();
+            roomsform.Show();
         }
     }
 }
